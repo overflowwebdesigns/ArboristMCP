@@ -1,0 +1,284 @@
+2026-10-25 19:41:34.404  start; clr=4.0.30319.42000 args=
+2026-10-25 19:41:34.409  stdin closed
+2026-10-25 19:41:34.410  exit
+2026-10-25 19:41:52.514  start; clr=4.0.30319.42000 args=
+2026-10-25 19:41:52.616  stdin closed
+2026-10-25 19:41:52.616  exit
+2026-10-25 19:41:52.694  start; clr=4.0.30319.42000 args=
+2026-10-25 19:41:52.709  <- {"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{"roots":{"listChanged":true},"extensions":{"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}}},"clientInfo":{"name":"local-agent-mode-arborist","version":"1.0.0"}},"jsonrpc":"2.0","id":0}
+2026-10-25 19:41:52.728  <- {"jsonrpc":"2.0","method":"notifications/initialized"}
+2026-10-25 19:41:52.735  <- {"method":"tools/list","jsonrpc":"2.0","id":1}
+2026-10-25 19:41:52.825  start; clr=4.0.30319.42000 args=
+2026-10-25 19:41:52.913  <- {"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{"extensions":{"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}}},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2026-10-25 19:41:52.957  <- {"jsonrpc":"2.0","method":"notifications/initialized"}
+2026-10-25 19:41:52.959  <- {"method":"tools/list","params":{},"jsonrpc":"2.0","id":1}
+2026-10-25 19:43:13.252  <- {"method":"tools/call","params":{"name":"arborist_status","arguments":{}},"jsonrpc":"2.0","id":2}
+2026-10-25 19:43:13.643  <- {"method":"tools/call","params":{"name":"arborist_list_catalog","arguments":{"type":"Tree"}},"jsonrpc":"2.0","id":3}
+2026-10-25 19:43:22.566  <- {"method":"tools/call","params":{"name":"arborist_ground_height","arguments":{"points":[{"x":983.2,"z":1066.7},{"x":986.4,"z":1070.5}]}},"jsonrpc":"2.0","id":4}
+2026-10-25 19:43:23.094  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{"height":540,"width":960}},"jsonrpc":"2.0","id":5}
+2026-10-25 19:43:33.861  <- {"method":"tools/call","params":{"name":"arborist_plant","arguments":{"items":[{"item_id":"09b75a9a-a91a-49ad-b732-0e843b563a96","rotation_y":0,"scale":1,"x":983.2,"z":1066.7}]}},"jsonrpc":"2.0","id":6}
+2026-10-25 19:44:15.820  <- {"method":"tools/call","params":{"name":"arborist_list_planted","arguments":{"radius":5,"x":983.2,"z":1066.7}},"jsonrpc":"2.0","id":7}
+2026-10-25 19:44:16.153  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":3,"look_at_x":983.2,"look_at_y":33,"look_at_z":1066.7,"x":995,"z":1060}},"jsonrpc":"2.0","id":8}
+2026-10-25 19:44:29.507  <- {"method":"tools/call","params":{"name":"arborist_undo","arguments":{}},"jsonrpc":"2.0","id":9}
+2026-10-25 19:44:35.076  <- {"method":"tools/call","params":{"name":"arborist_list_planted","arguments":{"summary_only":true}},"jsonrpc":"2.0","id":10}
+2026-10-25 19:48:41.995  stdin closed
+2026-10-25 19:48:41.995  exit
+2026-10-25 19:48:41.997  exit
+2026-10-25 19:48:50.829  start; clr=4.0.30319.42000 args=
+2026-10-25 19:48:51.123  <- {"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{"extensions":{"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}}},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2026-10-25 19:48:51.141  <- {"jsonrpc":"2.0","method":"notifications/initialized"}
+2026-10-25 19:48:51.143  <- {"method":"tools/list","params":{},"jsonrpc":"2.0","id":1}
+2026-10-25 19:48:51.193  start; clr=4.0.30319.42000 args=
+2026-10-25 19:48:51.199  <- {"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{"roots":{"listChanged":true},"extensions":{"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}}},"clientInfo":{"name":"local-agent-mode-arborist","version":"1.0.0"}},"jsonrpc":"2.0","id":0}
+2026-10-25 19:48:51.244  <- {"jsonrpc":"2.0","method":"notifications/initialized"}
+2026-10-25 19:48:51.245  <- {"method":"tools/list","jsonrpc":"2.0","id":1}
+2026-10-25 19:51:05.980  <- {"method":"tools/call","params":{"name":"arborist_status","arguments":{}},"jsonrpc":"2.0","id":2}
+2026-10-25 19:51:06.326  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{"width":1280}},"jsonrpc":"2.0","id":3}
+2026-10-25 20:09:03.099  <- {"method":"tools/call","params":{"name":"arborist_get_camera","arguments":{}},"jsonrpc":"2.0","id":4}
+2026-10-25 20:09:09.318  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"pitch":90,"x":1135,"y":1900,"yaw":0,"z":1135}},"jsonrpc":"2.0","id":5}
+2026-10-25 20:09:09.639  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{"width":1400}},"jsonrpc":"2.0","id":6}
+2026-10-25 20:09:21.755  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":160,"pitch":90,"x":1078,"yaw":0,"z":1159}},"jsonrpc":"2.0","id":7}
+2026-10-25 20:09:22.076  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{"width":1400}},"jsonrpc":"2.0","id":8}
+2026-10-25 20:09:33.590  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":5,"look_at_x":1079,"look_at_z":1158,"x":1040,"z":1128}},"jsonrpc":"2.0","id":9}
+2026-10-25 20:09:33.895  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{"width":1400}},"jsonrpc":"2.0","id":10}
+2026-10-25 20:10:51.430  stdin closed
+2026-10-25 20:10:51.431  exit
+2026-10-25 20:10:51.431  stdin closed
+2026-10-25 20:10:51.431  exit
+2026-10-25 20:12:02.298  start; clr=4.0.30319.42000 args=
+2026-10-25 20:12:02.304  stdin closed
+2026-10-25 20:12:02.305  exit
+2026-10-25 20:12:02.345  start; clr=4.0.30319.42000 args=
+2026-10-25 20:12:02.352  <- {"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{"roots":{"listChanged":true},"extensions":{"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}}},"clientInfo":{"name":"local-agent-mode-arborist","version":"1.0.0"}},"jsonrpc":"2.0","id":0}
+2026-10-25 20:12:02.362  <- {"jsonrpc":"2.0","method":"notifications/initialized"}
+2026-10-25 20:12:02.365  <- {"method":"tools/list","jsonrpc":"2.0","id":1}
+2026-10-25 20:12:02.430  start; clr=4.0.30319.42000 args=
+2026-10-25 20:12:02.671  <- {"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{"extensions":{"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}}},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2026-10-25 20:12:02.689  <- {"jsonrpc":"2.0","method":"notifications/initialized"}
+2026-10-25 20:12:02.690  <- {"method":"tools/list","params":{},"jsonrpc":"2.0","id":1}
+2026-10-25 20:14:17.584  stdin closed
+2026-10-25 20:14:17.584  exit
+2026-10-25 20:14:17.584  stdin closed
+2026-10-25 20:14:17.585  exit
+2026-10-25 20:14:54.404  start; clr=4.0.30319.42000 args=
+2026-10-25 20:14:54.640  <- {"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{"extensions":{"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}}},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2026-10-25 20:14:54.651  <- {"jsonrpc":"2.0","method":"notifications/initialized"}
+2026-10-25 20:14:54.666  <- {"method":"tools/list","params":{},"jsonrpc":"2.0","id":1}
+2026-10-25 20:14:54.721  start; clr=4.0.30319.42000 args=
+2026-10-25 20:14:54.727  <- {"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{"roots":{"listChanged":true},"extensions":{"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}}},"clientInfo":{"name":"local-agent-mode-arborist","version":"1.0.0"}},"jsonrpc":"2.0","id":0}
+2026-10-25 20:14:54.746  tools from plugin: 14
+2026-10-25 20:14:54.746  <- {"jsonrpc":"2.0","method":"notifications/initialized"}
+2026-10-25 20:14:54.748  <- {"method":"tools/list","jsonrpc":"2.0","id":1}
+2026-10-25 20:14:54.802  tools from plugin: 14
+2026-10-25 20:15:14.754  <- {"method":"tools/call","params":{"name":"arborist_list_masks","arguments":{"radius":40,"x":1079,"z":1158}},"jsonrpc":"2.0","id":2}
+2026-10-25 20:15:15.080  <- {"method":"tools/call","params":{"name":"arborist_list_masks","arguments":{"limit":0}},"jsonrpc":"2.0","id":3}
+2026-10-25 20:15:23.597  <- {"method":"tools/call","params":{"name":"arborist_list_masks","arguments":{"filter":"Water","limit":60}},"jsonrpc":"2.0","id":4}
+2026-10-25 20:15:23.935  <- {"method":"tools/call","params":{"name":"arborist_list_biomes","arguments":{"include_rules":false}},"jsonrpc":"2.0","id":5}
+2026-10-25 20:15:31.142  <- {"method":"tools/call","params":{"name":"arborist_list_masks","arguments":{"filter":"path587","include_nodes":true}},"jsonrpc":"2.0","id":6}
+2026-10-25 20:15:31.508  <- {"method":"tools/call","params":{"name":"arborist_list_biomes","arguments":{"filter":"lake edges"}},"jsonrpc":"2.0","id":7}
+2026-10-25 20:21:15.318  <- {"method":"tools/call","params":{"name":"arborist_list_masks","arguments":{"filter":"creek"}},"jsonrpc":"2.0","id":8}
+2026-10-25 20:21:15.718  <- {"method":"tools/call","params":{"name":"arborist_list_masks","arguments":{"kind":"all","radius":130,"x":958,"z":1176}},"jsonrpc":"2.0","id":9}
+2026-10-25 20:21:28.501  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"pitch":90,"x":958,"y":380,"yaw":0,"z":1177}},"jsonrpc":"2.0","id":10}
+2026-10-25 20:21:28.849  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{"width":1400}},"jsonrpc":"2.0","id":11}
+2026-10-25 20:21:53.020  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":6,"look_at_x":905,"look_at_y":24,"look_at_z":1125,"x":930,"z":1100}},"jsonrpc":"2.0","id":12}
+2026-10-25 20:21:53.336  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{"width":1400}},"jsonrpc":"2.0","id":13}
+2026-10-25 20:32:21.629  stdin closed
+2026-10-25 20:32:21.629  exit
+2026-10-25 20:32:21.632  exit
+2026-10-25 20:32:51.295  start; clr=4.0.30319.42000 args=
+2026-10-25 20:32:51.495  <- {"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{"extensions":{"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}}},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2026-10-25 20:32:51.514  <- {"jsonrpc":"2.0","method":"notifications/initialized"}
+2026-10-25 20:32:51.521  <- {"method":"tools/list","params":{},"jsonrpc":"2.0","id":1}
+2026-10-25 20:32:51.568  start; clr=4.0.30319.42000 args=
+2026-10-25 20:32:51.574  <- {"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{"roots":{"listChanged":true},"extensions":{"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}}},"clientInfo":{"name":"local-agent-mode-arborist","version":"1.0.0"}},"jsonrpc":"2.0","id":0}
+2026-10-25 20:32:51.585  <- {"jsonrpc":"2.0","method":"notifications/initialized"}
+2026-10-25 20:32:51.587  <- {"method":"tools/list","jsonrpc":"2.0","id":1}
+2026-10-25 20:32:51.591  tools from plugin: 19
+2026-10-25 20:32:51.646  tools from plugin: 19
+2026-10-25 20:33:12.875  <- {"method":"tools/call","params":{"name":"arborist_find_objects","arguments":{"limit":40,"radius":5,"x":903,"z":1118}},"jsonrpc":"2.0","id":2}
+2026-10-25 20:33:21.545  <- {"method":"tools/call","params":{"name":"arborist_mesh_outline","arguments":{"include_points":false,"object":"Spline_path587_Water_Base_Water_Base_Creek_-_Mesh"}},"jsonrpc":"2.0","id":3}
+2026-10-25 20:35:21.554  <- {"method":"tools/call","params":{"name":"arborist_status","arguments":{}},"jsonrpc":"2.0","id":4}
+2026-10-25 20:37:21.555  <- {"method":"tools/call","params":{"name":"arborist_status","arguments":{}},"jsonrpc":"2.0","id":5}
+2026-10-25 20:39:21.563  <- {"method":"tools/call","params":{"name":"arborist_status","arguments":{}},"jsonrpc":"2.0","id":6}
+2026-10-25 20:41:21.565  <- {"method":"tools/call","params":{"name":"arborist_status","arguments":{}},"jsonrpc":"2.0","id":7}
+2026-10-25 20:43:06.873  <- {"jsonrpc":"2.0","method":"notifications/cancelled","params":{"requestId":7,"reason":"SdkError: Request timed out"}}
+2026-10-25 20:43:59.595  stdin closed
+2026-10-25 20:43:59.595  exit
+2026-10-25 20:43:59.679  start; clr=4.0.30319.42000 args=
+2026-10-25 20:43:59.685  <- {"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{"roots":{"listChanged":true},"extensions":{"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}}},"clientInfo":{"name":"local-agent-mode-arborist","version":"1.0.0"}},"jsonrpc":"2.0","id":0}
+2026-10-25 20:43:59.693  <- {"jsonrpc":"2.0","method":"notifications/initialized"}
+2026-10-25 20:43:59.694  <- {"method":"tools/list","jsonrpc":"2.0","id":1}
+2026-10-25 20:43:59.732  tools from plugin: 19
+2026-10-25 20:43:59.734  <- {"method":"tools/call","params":{"name":"arborist_mesh_outline","arguments":{"include_points":false,"object":"Spline_path587_Water_Base_Water_Base_Creek_-_Mesh"}},"jsonrpc":"2.0","id":2}
+2026-10-25 21:49:29.664  tool list changed; notifying client
+2026-10-25 21:49:29.667  <- {"method":"tools/list","params":{},"jsonrpc":"2.0","id":2}
+2026-10-25 21:49:30.657  tools from plugin: 20
+2026-10-25 21:49:31.457  tool list changed; notifying client
+2026-10-25 21:50:17.639  <- {"method":"tools/call","params":{"name":"arborist_mesh_outline","arguments":{"include_points":false,"object":"Spline_path587_Water_Base_Water_Base_Creek_-_Mesh"}},"jsonrpc":"2.0","id":3}
+2026-10-25 21:50:38.612  <- {"method":"tools/call","params":{"name":"arborist_mesh_outline","arguments":{"include_points":true,"object":"Spline_path587_Water_Base_Water_Base_Creek_-_Mesh","simplify":false}},"jsonrpc":"2.0","id":4}
+2026-10-25 21:51:08.791  <- {"method":"tools/call","params":{"name":"arborist_mesh_outline","arguments":{"include_points":true,"object":"Planted_oncrete_-_Mesh_-_Bridge_-_Wood_Type_1_004","simplify":true}},"jsonrpc":"2.0","id":5}
+2026-10-25 21:53:28.101  <- {"method":"tools/call","params":{"name":"arborist_create_vegetation_mask","arguments":{"name":"Claude-Creek-Bed","points":[[1050.36,1144.97],[1050.69,1142.74],[1050.28,1142.12],[1029.9,1141.97],[1026.92,1141.74],[1024.57,1141.28],[1022.32,1140.47],[1020.2,1139.35],[1012.43,1133.74],[1008.23,1131.45]...
+2026-10-25 21:53:48.580  <- {"method":"tools/call","params":{"name":"arborist_create_biome_mask","arguments":{"biome":"lake edges","blend_distance":0,"copy_curves_from":"BiomeMask-Spline_Spline_path587_Water_Base_Lake_-_Mesh_WaterPlane","name":"Claude-Creek-Edge-East","noise_scale":20,"points":[[1051.74,1142.51],[1050.82,1141....
+2026-10-25 21:53:48.964  <- {"method":"tools/call","params":{"name":"arborist_create_biome_mask","arguments":{"biome":"lake edges","blend_distance":0,"copy_curves_from":"BiomeMask-Spline_Spline_path587_Water_Base_Lake_-_Mesh_WaterPlane","name":"Claude-Creek-Edge-West","noise_scale":20,"points":[[892.37,1121.07],[890.4,1122.64]...
+2026-10-25 21:53:57.589  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":6,"look_at_x":905,"look_at_y":24,"look_at_z":1125,"x":930,"z":1100}},"jsonrpc":"2.0","id":9}
+2026-10-25 21:53:57.913  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{"width":1400}},"jsonrpc":"2.0","id":10}
+2026-10-25 21:54:08.924  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":40,"pitch":90,"x":900,"yaw":0,"z":1122}},"jsonrpc":"2.0","id":11}
+2026-10-25 21:54:09.224  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{"width":1400}},"jsonrpc":"2.0","id":12}
+2026-10-25 21:54:22.544  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":2.5,"look_at_x":900,"look_at_y":25.5,"look_at_z":1122,"x":888,"z":1112}},"jsonrpc":"2.0","id":13}
+2026-10-25 21:54:22.831  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{"width":1400}},"jsonrpc":"2.0","id":14}
+2026-10-25 21:54:37.715  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":2.5,"look_at_x":899,"look_at_y":25,"look_at_z":1121,"x":914,"z":1132}},"jsonrpc":"2.0","id":15}
+2026-10-25 21:54:38.571  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{"width":1400}},"jsonrpc":"2.0","id":16}
+2026-10-25 21:54:55.391  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":5,"look_at_x":1035,"look_at_y":26,"look_at_z":1143,"x":1000,"z":1150}},"jsonrpc":"2.0","id":17}
+2026-10-25 21:54:55.673  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{"width":1400}},"jsonrpc":"2.0","id":18}
+2026-10-25 21:55:07.261  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":4,"look_at_x":970,"look_at_y":25,"look_at_z":1104,"x":935,"z":1112}},"jsonrpc":"2.0","id":19}
+2026-10-25 21:55:07.597  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{"width":1400}},"jsonrpc":"2.0","id":20}
+2026-10-25 21:55:19.489  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":14,"look_at_x":955,"look_at_y":25,"look_at_z":1100,"x":960,"z":1135}},"jsonrpc":"2.0","id":21}
+2026-10-25 21:55:19.835  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{"width":1400}},"jsonrpc":"2.0","id":22}
+2026-10-25 21:55:36.192  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":22,"look_at_x":885,"look_at_y":23,"look_at_z":1170,"x":930,"z":1150}},"jsonrpc":"2.0","id":23}
+2026-10-25 21:55:36.487  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{"width":1400}},"jsonrpc":"2.0","id":24}
+2026-10-27 07:52:31.739  start; clr=4.0.30319.42000 args=
+2026-10-27 07:52:32.131  <- {"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{"extensions":{"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}}},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2026-10-27 07:52:32.167  <- {"jsonrpc":"2.0","method":"notifications/initialized"}
+2026-10-27 07:52:32.168  <- {"method":"tools/list","params":{},"jsonrpc":"2.0","id":1}
+2026-10-27 07:52:32.170  start; clr=4.0.30319.42000 args=
+2026-10-27 07:52:32.175  <- {"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{"roots":{"listChanged":true},"extensions":{"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}}},"clientInfo":{"name":"local-agent-mode-arborist","version":"1.0.0"}},"jsonrpc":"2.0","id":0}
+2026-10-27 07:52:32.181  <- {"jsonrpc":"2.0","method":"notifications/initialized"}
+2026-10-27 07:52:32.182  <- {"method":"tools/list","jsonrpc":"2.0","id":1}
+2026-10-27 07:52:34.243  list_tools from plugin failed: Unable to connect to the remote server
+2026-10-27 18:03:09.074  stdin closed
+2026-10-27 18:03:09.075  exit
+2026-10-27 18:03:09.074  stdin closed
+2026-10-27 18:03:09.075  exit
+2026-10-27 18:03:15.411  start; clr=4.0.30319.42000 args=
+2026-10-27 18:03:15.563  <- {"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{"extensions":{"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}}},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2026-10-27 18:03:15.595  <- {"jsonrpc":"2.0","method":"notifications/initialized"}
+2026-10-27 18:03:15.613  <- {"method":"tools/list","params":{},"jsonrpc":"2.0","id":1}
+2026-10-27 18:03:15.643  start; clr=4.0.30319.42000 args=
+2026-10-27 18:03:15.648  <- {"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{"roots":{"listChanged":true},"extensions":{"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}}},"clientInfo":{"name":"local-agent-mode-arborist","version":"1.0.0"}},"jsonrpc":"2.0","id":0}
+2026-10-27 18:03:15.654  <- {"jsonrpc":"2.0","method":"notifications/initialized"}
+2026-10-27 18:03:15.655  <- {"method":"tools/list","jsonrpc":"2.0","id":1}
+2026-10-27 18:03:17.682  list_tools from plugin failed: Unable to connect to the remote server
+2026-10-27 18:03:17.729  list_tools from plugin failed: Unable to connect to the remote server
+2026-10-27 20:51:59.597  tool list changed; notifying client
+2026-10-27 20:51:59.600  <- {"method":"tools/list","params":{},"jsonrpc":"2.0","id":2}
+2026-10-27 20:52:00.631  tool list changed; notifying client
+2026-10-27 20:58:33.111  <- {"method":"tools/call","params":{"name":"arborist_status","arguments":{}},"jsonrpc":"2.0","id":2}
+2026-10-27 20:58:35.686  <- {"method":"tools/call","params":{"name":"arborist_find_objects","arguments":{"filter":"Green","limit":60}},"jsonrpc":"2.0","id":3}
+2026-10-27 20:58:39.742  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"look_at_x":930,"look_at_y":10,"look_at_z":1480,"x":930,"y":650,"z":1000}},"jsonrpc":"2.0","id":4}
+2026-10-27 20:58:41.332  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{}},"jsonrpc":"2.0","id":5}
+2026-10-27 20:58:47.371  <- {"method":"tools/call","params":{"name":"arborist_list_biomes","arguments":{"include_rules":false}},"jsonrpc":"2.0","id":6}
+2026-10-27 20:58:52.871  <- {"method":"tools/call","params":{"name":"arborist_find_objects","arguments":{"filter":"Mesh","limit":40,"radius":120,"x":780,"z":1880}},"jsonrpc":"2.0","id":7}
+2026-10-27 20:58:56.637  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":45,"look_at_x":760,"look_at_z":1880,"x":760,"z":1760}},"jsonrpc":"2.0","id":8}
+2026-10-27 20:58:58.033  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{}},"jsonrpc":"2.0","id":9}
+2026-10-27 20:59:05.800  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":25,"look_at_x":705,"look_at_z":1885,"x":700,"z":1830}},"jsonrpc":"2.0","id":10}
+2026-10-27 20:59:07.429  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{}},"jsonrpc":"2.0","id":11}
+2026-10-27 20:59:15.521  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":22,"look_at_x":733,"look_at_z":1805,"x":735,"z":1700}},"jsonrpc":"2.0","id":12}
+2026-10-27 20:59:17.074  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{}},"jsonrpc":"2.0","id":13}
+2026-10-27 20:59:23.074  <- {"method":"tools/call","params":{"name":"arborist_ground_height","arguments":{"points":[{"x":733,"z":1730},{"x":735,"z":1745},{"x":730,"z":1760},{"x":740,"z":1770},{"x":725,"z":1750}]}},"jsonrpc":"2.0","id":14}
+2026-10-27 20:59:25.596  <- {"method":"tools/call","params":{"name":"arborist_list_masks","arguments":{"radius":20,"x":733,"z":1745}},"jsonrpc":"2.0","id":15}
+2026-10-27 20:59:29.050  <- {"method":"tools/call","params":{"name":"arborist_list_masks","arguments":{"include_nodes":true,"kind":"line"}},"jsonrpc":"2.0","id":16}
+2026-10-27 20:59:36.985  <- {"method":"tools/call","params":{"name":"arborist_mesh_outline","arguments":{"object":"Spline_path148_Fairway_-_Mesh"}},"jsonrpc":"2.0","id":17}
+2026-10-27 20:59:46.442  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":40,"look_at_x":995,"look_at_z":1725,"x":995,"z":1640}},"jsonrpc":"2.0","id":18}
+2026-10-27 20:59:48.009  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{}},"jsonrpc":"2.0","id":19}
+2026-10-27 20:59:55.904  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":40,"look_at_x":1005,"look_at_z":1553,"x":960,"z":1480}},"jsonrpc":"2.0","id":20}
+2026-10-27 20:59:57.501  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{}},"jsonrpc":"2.0","id":21}
+2026-10-27 21:00:03.410  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":50,"look_at_x":1280,"look_at_z":1535,"x":1280,"z":1440}},"jsonrpc":"2.0","id":22}
+2026-10-27 21:00:04.969  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{}},"jsonrpc":"2.0","id":23}
+2026-10-27 21:00:09.728  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":55,"look_at_x":1380,"look_at_z":1200,"x":1300,"z":1150}},"jsonrpc":"2.0","id":24}
+2026-10-27 21:00:11.283  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{}},"jsonrpc":"2.0","id":25}
+2026-10-27 21:00:17.651  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":55,"look_at_x":1040,"look_at_z":1330,"x":1110,"z":1260}},"jsonrpc":"2.0","id":26}
+2026-10-27 21:00:19.273  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{}},"jsonrpc":"2.0","id":27}
+2026-10-27 21:00:27.330  <- {"method":"tools/call","params":{"name":"arborist_list_masks","arguments":{"radius":25,"x":1062,"z":1300}},"jsonrpc":"2.0","id":28}
+2026-10-27 21:00:30.940  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":55,"pitch":88,"x":1050,"yaw":0,"z":1300}},"jsonrpc":"2.0","id":29}
+2026-10-27 21:00:32.564  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{}},"jsonrpc":"2.0","id":30}
+2026-10-27 21:00:38.465  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":50,"look_at_x":960,"look_at_z":1110,"x":930,"z":1010}},"jsonrpc":"2.0","id":31}
+2026-10-27 21:00:40.108  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{}},"jsonrpc":"2.0","id":32}
+2026-10-27 21:00:45.942  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":18,"look_at_x":1080,"look_at_z":1160,"x":1060,"z":1120}},"jsonrpc":"2.0","id":33}
+2026-10-27 21:00:47.611  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{}},"jsonrpc":"2.0","id":34}
+2026-10-27 21:00:53.061  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":50,"look_at_x":585,"look_at_z":1215,"x":660,"z":1200}},"jsonrpc":"2.0","id":35}
+2026-10-27 21:00:54.737  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{}},"jsonrpc":"2.0","id":36}
+2026-10-27 21:01:06.839  <- {"method":"tools/call","params":{"name":"arborist_list_catalog","arguments":{"type":"Tree"}},"jsonrpc":"2.0","id":37}
+2026-10-27 21:01:14.281  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":2,"look_at_x":1030,"look_at_y":22,"look_at_z":1540,"x":990,"z":1490}},"jsonrpc":"2.0","id":38}
+2026-10-27 21:01:15.983  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{}},"jsonrpc":"2.0","id":39}
+2026-10-27 21:01:22.303  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":50,"look_at_x":505,"look_at_z":1495,"x":560,"z":1420}},"jsonrpc":"2.0","id":40}
+2026-10-27 21:01:24.137  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{}},"jsonrpc":"2.0","id":41}
+2026-10-27 21:01:29.759  <- {"method":"tools/call","params":{"name":"arborist_find_objects","arguments":{"limit":20,"radius":30,"x":525,"z":1440}},"jsonrpc":"2.0","id":42}
+2026-10-27 21:01:33.119  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":15,"look_at_x":590,"look_at_z":1490,"x":560,"z":1430}},"jsonrpc":"2.0","id":43}
+2026-10-27 21:01:34.749  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{}},"jsonrpc":"2.0","id":44}
+2026-10-27 21:01:40.183  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":22,"look_at_x":515,"look_at_z":1450,"x":490,"z":1400}},"jsonrpc":"2.0","id":45}
+2026-10-27 21:01:41.787  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{}},"jsonrpc":"2.0","id":46}
+2026-10-27 21:01:52.174  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":55,"look_at_x":830,"look_at_z":1660,"x":850,"z":1560}},"jsonrpc":"2.0","id":47}
+2026-10-27 21:01:53.942  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{}},"jsonrpc":"2.0","id":48}
+2026-10-27 21:02:01.298  <- {"method":"tools/call","params":{"name":"arborist_list_masks","arguments":{"radius":15,"x":812,"z":1655}},"jsonrpc":"2.0","id":49}
+2026-10-27 21:02:05.803  <- {"method":"tools/call","params":{"name":"arborist_list_masks","arguments":{"kind":"biome","limit":500}},"jsonrpc":"2.0","id":50}
+2026-10-27 21:02:13.221  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":30,"look_at_x":1206,"look_at_z":1396,"x":1170,"z":1340}},"jsonrpc":"2.0","id":51}
+2026-10-27 21:02:14.986  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{}},"jsonrpc":"2.0","id":52}
+2026-10-27 21:02:23.301  <- {"method":"tools/call","params":{"name":"arborist_find_objects","arguments":{"filter":"Water","limit":5,"radius":40,"x":1205,"z":1395}},"jsonrpc":"2.0","id":53}
+2026-10-27 21:02:28.495  <- {"method":"tools/call","params":{"name":"arborist_list_masks","arguments":{"kind":"vegetation","limit":200}},"jsonrpc":"2.0","id":54}
+2026-10-27 21:02:35.546  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":30,"look_at_x":795,"look_at_z":1560,"x":860,"z":1500}},"jsonrpc":"2.0","id":55}
+2026-10-27 21:02:37.374  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{}},"jsonrpc":"2.0","id":56}
+2026-10-27 21:02:52.277  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":70,"pitch":89,"x":815,"yaw":0,"z":1660}},"jsonrpc":"2.0","id":57}
+2026-10-27 21:02:54.106  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{}},"jsonrpc":"2.0","id":58}
+2026-10-28 21:49:00.690  start; clr=4.0.30319.42000 args=
+2026-10-28 21:49:00.695  <- {"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{"roots":{"listChanged":true},"extensions":{"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}}},"clientInfo":{"name":"local-agent-mode-arborist","version":"1.0.0"}},"jsonrpc":"2.0","id":0}
+2026-10-28 21:49:00.701  <- {"jsonrpc":"2.0","method":"notifications/initialized"}
+2026-10-28 21:49:00.703  <- {"method":"tools/list","jsonrpc":"2.0","id":1}
+2026-10-28 21:49:02.761  list_tools from plugin failed: Unable to connect to the remote server
+2026-10-28 21:49:02.805  start; clr=4.0.30319.42000 args=
+2026-10-28 21:49:02.809  <- {"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{"extensions":{"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}}},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2026-10-28 21:49:02.822  <- {"jsonrpc":"2.0","method":"notifications/initialized"}
+2026-10-28 21:49:02.823  <- {"method":"tools/list","params":{},"jsonrpc":"2.0","id":1}
+2026-10-28 21:49:04.889  list_tools from plugin failed: Unable to connect to the remote server
+2026-10-28 21:49:10.961  tool list changed; notifying client
+2026-10-28 21:49:13.507  tool list changed; notifying client
+2026-10-28 21:49:13.510  <- {"method":"tools/list","params":{},"jsonrpc":"2.0","id":2}
+2026-10-28 21:49:13.570  tools from plugin: 24
+2026-10-28 21:52:47.181  stdin closed
+2026-10-28 21:52:47.181  exit
+2026-10-28 21:52:47.181  stdin closed
+2026-10-28 21:52:47.181  exit
+2026-10-28 21:53:37.507  start; clr=4.0.30319.42000 args=
+2026-10-28 21:53:37.552  stdin closed
+2026-10-28 21:53:37.552  exit
+2026-10-28 21:53:37.594  start; clr=4.0.30319.42000 args=
+2026-10-28 21:53:37.601  <- {"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{"roots":{"listChanged":true},"extensions":{"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}}},"clientInfo":{"name":"local-agent-mode-arborist","version":"1.0.0"}},"jsonrpc":"2.0","id":0}
+2026-10-28 21:53:37.607  <- {"jsonrpc":"2.0","method":"notifications/initialized"}
+2026-10-28 21:53:37.607  <- {"method":"tools/list","jsonrpc":"2.0","id":1}
+2026-10-28 21:53:37.661  tools from plugin: 25
+2026-10-28 21:53:37.705  start; clr=4.0.30319.42000 args=
+2026-10-28 21:53:37.888  <- {"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{"extensions":{"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}}},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2026-10-28 21:53:37.912  <- {"jsonrpc":"2.0","method":"notifications/initialized"}
+2026-10-28 21:53:37.913  <- {"method":"tools/list","params":{},"jsonrpc":"2.0","id":1}
+2026-10-28 21:53:37.971  tools from plugin: 25
+2026-10-28 21:54:01.576  <- {"method":"tools/call","params":{"name":"arborist_pp_get","arguments":{}},"jsonrpc":"2.0","id":2}
+2026-10-28 21:54:14.796  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"pitch":0,"x":992.85,"y":28.67,"yaw":220,"z":1078.15}},"jsonrpc":"2.0","id":3}
+2026-10-28 21:54:15.159  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{"width":1024}},"jsonrpc":"2.0","id":4}
+2026-10-28 21:54:25.070  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":5,"look_at_x":1079,"look_at_z":1158,"x":1040,"z":1128}},"jsonrpc":"2.0","id":5}
+2026-10-28 21:54:25.477  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{"width":1024}},"jsonrpc":"2.0","id":6}
+2026-10-28 21:54:36.130  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":22,"look_at_x":870,"look_at_y":30,"look_at_z":1185,"x":930,"z":1150}},"jsonrpc":"2.0","id":7}
+2026-10-28 21:54:36.425  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{"width":1024}},"jsonrpc":"2.0","id":8}
+2026-10-28 21:54:52.810  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":5,"look_at_x":1079,"look_at_z":1158,"x":1040,"z":1128}},"jsonrpc":"2.0","id":9}
+2026-10-28 21:54:53.150  <- {"method":"tools/call","params":{"name":"arborist_pp_set","arguments":{"effect":"ColorGrading","params":{"gain":[1,1,1,-0.05],"gamma":[1,1,1,-0.05],"hueShift":0,"lift":[1,1,1,-0.12],"temperature":8}}},"jsonrpc":"2.0","id":10}
+2026-10-28 21:54:53.468  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{"width":1024}},"jsonrpc":"2.0","id":11}
+2026-10-28 21:55:04.221  <- {"method":"tools/call","params":{"name":"arborist_pp_set","arguments":{"changes":[{"effect":"ColorGrading","params":{"tonemapper":"ACES"}},{"effect":"Bloom","params":{"intensity":0.8,"threshold":1}}]}},"jsonrpc":"2.0","id":12}
+2026-10-28 21:55:04.533  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{"width":1024}},"jsonrpc":"2.0","id":13}
+2026-10-28 21:55:16.022  <- {"method":"tools/call","params":{"name":"arborist_pp_set","arguments":{"effect":"ColorGrading","params":{"contrast":12,"postExposure":1.55,"saturation":-3}}},"jsonrpc":"2.0","id":14}
+2026-10-28 21:55:16.338  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{"width":1024}},"jsonrpc":"2.0","id":15}
+2026-10-28 21:55:27.898  <- {"method":"tools/call","params":{"name":"arborist_pp_set","arguments":{"effect":"Vignette","params":{"intensity":0.18,"rounded":false,"roundness":1,"smoothness":0.45}}},"jsonrpc":"2.0","id":16}
+2026-10-28 21:55:28.226  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"pitch":0,"x":992.85,"y":28.67,"yaw":220,"z":1078.15}},"jsonrpc":"2.0","id":17}
+2026-10-28 21:55:28.563  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{"width":1024}},"jsonrpc":"2.0","id":18}
+2026-10-28 21:55:37.942  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"height_above_ground":22,"look_at_x":870,"look_at_y":30,"look_at_z":1185,"x":930,"z":1150}},"jsonrpc":"2.0","id":19}
+2026-10-28 21:55:38.234  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{"width":1024}},"jsonrpc":"2.0","id":20}
+2026-10-28 21:55:48.412  <- {"method":"tools/call","params":{"name":"arborist_pp_set","arguments":{"effect":"ColorGrading","params":{"lift":[1,1,1,-0.06]}}},"jsonrpc":"2.0","id":21}
+2026-10-28 21:55:48.707  <- {"method":"tools/call","params":{"name":"arborist_set_camera","arguments":{"pitch":0,"x":992.85,"y":28.67,"yaw":220,"z":1078.15}},"jsonrpc":"2.0","id":22}
+2026-10-28 21:55:49.003  <- {"method":"tools/call","params":{"name":"arborist_screenshot","arguments":{"width":1024}},"jsonrpc":"2.0","id":23}
+2026-10-29 14:12:02.991  start; clr=4.0.30319.42000 args=
+2026-10-29 14:12:03.252  <- {"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{"extensions":{"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}}},"clientInfo":{"name":"claude-ai","version":"0.1.0"}},"jsonrpc":"2.0","id":0}
+2026-10-29 14:12:03.282  <- {"jsonrpc":"2.0","method":"notifications/initialized"}
+2026-10-29 14:12:03.283  <- {"method":"tools/list","params":{},"jsonrpc":"2.0","id":1}
+2026-10-29 14:12:03.310  start; clr=4.0.30319.42000 args=
+2026-10-29 14:12:03.316  <- {"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{"roots":{"listChanged":true},"extensions":{"io.modelcontextprotocol/ui":{"mimeTypes":["text/html;profile=mcp-app"]}}},"clientInfo":{"name":"local-agent-mode-arborist","version":"1.0.0"}},"jsonrpc":"2.0","id":0}
+2026-10-29 14:12:03.355  <- {"jsonrpc":"2.0","method":"notifications/initialized"}
+2026-10-29 14:12:03.357  <- {"method":"tools/list","jsonrpc":"2.0","id":1}
+2026-10-29 14:12:05.346  list_tools from plugin failed: Unable to connect to the remote server
+2026-10-29 14:12:05.407  list_tools from plugin failed: Unable to connect to the remote server
